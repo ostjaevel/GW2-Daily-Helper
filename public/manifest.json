@@ -1,0 +1,15 @@
+{
+  "short_name": "GW2 Daily Helper",
+  "name": "Guild Wars 2 Daily Helper",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "Type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

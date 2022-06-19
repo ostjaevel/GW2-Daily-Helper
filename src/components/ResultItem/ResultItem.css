@@ -1,0 +1,51 @@
+.resultItem--content{
+  align-items: center;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 30px auto fit-content(30%);
+  grid-template-rows: auto fit-content(30%);
+  padding:1rem;
+}
+
+.resultItem--content-gatheringItemContainer{
+  align-items: center;
+  border-top: 1px solid #cacaca;
+  color: #666;
+  display:grid;
+  grid-column: 1 / span 3;
+  grid-gap: 1rem;
+  grid-template-columns: 30px auto;
+  padding: 0.5rem 0;
+  user-select: none;
+}
+
+.resultItem-image--Container{
+  position: relative;
+}
+
+.resultItem-mapname{
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+  color: #FFF;
+  font-size: 1.5rem;
+
+}
+.resultItem--content--WaypointCopyInfo{
+  color: #666;
+  font-size: 0.8em;
+  user-select: none;
+}
+
+.resultItem--content-WaypointCode{
+  color: #666;
+  cursor: pointer;
+  user-select: none;
+}
+.resultItem--image{
+  width: 100%;
+}
+
+.resultItem--image:hover{
+  opacity: 0.8;
+}

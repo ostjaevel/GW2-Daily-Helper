@@ -1,0 +1,58 @@
+.App{
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto fit-content(100px);
+  height: 100%;
+  width: 100%;
+}
+.main-content{
+  overflow: auto;
+}
+
+.navbar--container{
+  background: #191716;
+  display: grid;
+  grid-row: 2;
+  width: 100%;
+}
+
+.topBanner_blueBg{
+  background: url('../assets/images/headerblueFixedges.png');
+  background-size: cover;
+}
+.topBanner_redBg{
+  background:url('../assets/images/headerredFixedges.png');
+  background-size: cover;
+}
+
+.DailyItem-Container--NoDailyText{
+  margin-top: 0;
+  text-align: center;
+}
+
+.resultItem--container{
+  background: #FFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display:grid;
+  grid-template-rows: auto fit-content(40%);
+  width: 100%;
+}
+.resultItem-Btn--Toggle{
+  border: none;
+  background: none;
+}
+
+/* DESKTOP */
+@media (min-width: 1000px){
+  .App {
+    grid-template-columns: fit-content(100px) auto;
+    grid-template-rows: auto;
+  }
+  .main-content{
+    grid-column: 2;
+  }
+  .navbar--container{
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
